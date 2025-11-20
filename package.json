@@ -15,7 +15,9 @@
     "fixAll": "npm run format && npm run lintfix"
   },
   "dependencies": {
-    "prettier": "^3.6.2",
+    "prettier": "^3.6.2"
+  },
+  "devDependencies": {
     "stylelint": "^16.25.0"
   }
 }

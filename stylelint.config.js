@@ -1,5 +1,7 @@
 module.exports = {
   rules: {
+    'font-family-name-quotes': 'always-unless-keyword',
+    'font-family-name-quotes': 'always-where-recommended',
     'color-no-invalid-hex': true,
     'value-keyword-case': ['lower', { camelCaseSvgKeywords: true }],
     'property-no-unknown': true,
