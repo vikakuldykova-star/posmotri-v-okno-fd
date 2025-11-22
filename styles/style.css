@@ -166,7 +166,7 @@ ol {
   font-size: 18px;
   text-align: center;
   cursor: pointer;
-  height: 34px;
+  min-height: 34px;
 }
 
 .button:hover {
@@ -194,10 +194,13 @@ ol {
 
 .more-button {
   width: 100%;
-  line-height: 34px;
+  line-height: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
+  padding: 6px 0;
+  flex-shrink: 0;
 }
 
 .content__details {
@@ -237,7 +240,7 @@ ol {
 }
 
 .content__list-item {
-  padding: 3px;
+ padding: 3px;
 }
 
 .content__card-link {
@@ -287,6 +290,7 @@ ol {
   text-overflow: ellipsis;
   max-width: 196px;
   margin-bottom: 6px;
+  line-height: 1;
 }
 
 .content__video-card-description {
